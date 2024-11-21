@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-from cli_app import cli, greet, factorial, reverse
+from src.feedme.cli import greet, factorial, reverse
 
 @pytest.fixture
 def runner():
